@@ -12,6 +12,7 @@
 
 + (UIImage *)blankImage;
 + (UIImage *)imageOfColor:(UIColor *)color;
++ (UIImage*) grayishImage: (UIImage*) inputImage;
 - (UIImage *)tintedGradientImageWithColor:(UIColor *)tintColor;
 - (UIImage *)tintedImageWithColor:(UIColor *)tintColor;
 - (UIImage *)imageScaledToSize:(CGSize)size;
