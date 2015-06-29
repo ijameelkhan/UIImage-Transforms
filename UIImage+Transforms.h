@@ -21,5 +21,6 @@
 + (UIImage *)stitchImages:(NSArray *)images vertically:(BOOL)vertically;
 - (UIImage *)colorizeImageWithColor:(UIColor *)color;
 - (UIImage *)colorizeImageWithColor:(UIColor *)color withBlendMode:(CGBlendMode)blendMode;
+- (UIImage*) maskImage:(UIImage *)image withMask:(UIImage *)maskImage ;
 
 @end
