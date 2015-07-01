@@ -211,7 +211,7 @@
     return tintedImage;
 }
 
-- (UIImage*) maskImage:(UIImage *)image withMask:(UIImage *)maskImage {
++ (UIImage*) maskImage:(UIImage *)image withMask:(UIImage *)maskImage {
     
     CGImageRef maskRef = maskImage.CGImage;
     
